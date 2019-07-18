@@ -1,0 +1,17 @@
+{
+  "name": "ladev/hello-composer",
+  "description": "A simple hello world composer package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "LaDev Juno",
+      "email": "langatwilliamk@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"ladev\\HelloWorld\\": "src/"}
+  },
+  "require": {}
+}
